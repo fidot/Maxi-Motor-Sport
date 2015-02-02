@@ -1,2 +1,15 @@
 <!-- Make sure that you retain the paragraph tags <p> and </p> around each paragraph -->
-<p>This is the About Us page</p>
+<p> Welcome to Maxi Motorsport!</p>
+<p> At Maxi Motorsport we specialise in Peugeot, Citroen and Renault competition cars for race, rally and hillclimb, and run our own 205 Maxi rally car on selected UK tarmac events.</p>
+<p> We can supply a wide range of bodykits and components, either made by ourselves in house, or imported from our factory in France.</p>
+<p> Thankyou for taking the time to read about us, if you have any questions please use the contact page, or e-mail us at Maximotorsport@outlook.com </p>  
+<p>
+<p>
+<p>
+ <td><img src="/images/Maxi Motorsport.jpg" </td>
+  </tr>
+
+
+
+ 
+</p>

@@ -7,14 +7,14 @@
   </tr>
   <tr>
     <td><a href="/products.php?directory=products/Peugeot/Peugeot 206/206 Maxi Bodykit"><img src="/products/Peugeot/Peugeot 206/206 Maxi Bodykit/206-Maxi.jpg" alt=""><br>Peugeot 206 Maxi Bodykit</a></td>
-    <td><a href="/products.php?directory=products/Peugeot/Peugeot 206/206 WRC Bodykit"><img src="/products/Peugeot/Peugeot 206/206 WRC Bodykit/206 WRC.jpg" alt=""><br>Peugeot 206 WRC Bodykit</a></td>
-    <td><a href="/products.php?directory=products/Peugeot/Peugeot 207"><img src="/products/Peugeot/Peugeot 207/207 Maxi rear.jpg" alt=""><br>Peugeot 207</a></td>
-    <td><a href="/products.php?directory=products/Peugeot/Peugeot 306/306 Maxi Bodykit Phase 1"><img src="/products/Peugeot/Peugeot 306/306 Maxi Bodykit Phase 1/306 Maxi-ph1.jpg" alt=""><br>Peugeot 306 Maxi Bodykit Phase 1</a></td>
+    <td><a href="/products.php?directory=products/Citroen/Citroen AX/AX Maxi Bodykit"><img src="/products/Citroen/Citroen AX/AX Maxi Bodykit/AX Maxi Front.jpg" alt=""><br>Citroen AX Maxi Bodykit</a></td> 
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 207"><img src="/products/Peugeot/Peugeot 207/207 Maxi front.jpg" alt=""><br>Peugeot 207 Maxi Bodykit</a></td>
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 306/306 Maxi Bodykit Phase 1"><img src="/products/Peugeot/Peugeot 306/306 Maxi Bodykit Phase 1/306 Maxi-ph1.jpg" alt=""><br>Peugeot 306 Maxi Bodykit Ph1</a></td>
   </tr>
   <tr>
-    <td><a href="products.php?directory=products/Citroen/Citroen AX/AX Wing Mirrors"><img src="/products/Citroen/Citroen AX/AX Wing Mirrors/AX wing mirror.jpg" alt=""><br>Citroen AX Wing Mirrors</a></td>
-    <td></td>
-    <td></td>
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 205/Medium arches - Godney spec"><img src="/products/Peugeot/Peugeot 205/Medium arches - Godney spec/Godney - mid size.jpg" alt=""><br>Mid sized 205 arches</a></td>
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 205/Wide arches - Satchell spec"><img src="/products/Peugeot/Peugeot 205/Wide arches - Satchell spec/205 wide rear.jpg" alt=""><br>Wide 205 arches</a></td>
+    <td><a href="/products.php?directory=products/Miscellaneous/Auto Electrical"><img src="/products/Miscellaneous/Auto Electrical/Battery Isolator.jpeg" alt=""><br>Electrical Kill Switch</a></td>
     <td></td>
   </tr>
 </table>
