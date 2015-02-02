@@ -1,0 +1,8 @@
+<p>FIA approved electrical battery isolator kit/master switch relay. Supplied with all switches for remote battery isolation and re-connection.</p>
+<p>The kit includes an EV200 relay, spike suppressor, one green reflex switch, two red reflex switches, alloy switch bracket, wire and required terminals.</p>
+<p>Wiring diagram and fitting instructions supplied.</p>
+<p>The EV200H battery isolator is a sealed high current relay compatible with FIA technical regulations. It carries 250 Amps continuous and 500 Amps for engine starting.</p>
+<p>Hermetically sealed and intrinsically safe, it can be used in explosive and harsh environments.</P>
+
+<p>The EV200H has a built in coil economizer which limits the power used in the ON position to only 1.7 watts. No power is used in the OFF position.</p>
+<p>Please specify if you require a single or twin bracket for mounting the external reflex switches. These are laser cut and supplied flat for you to bend as required to suit your application.</p>  
