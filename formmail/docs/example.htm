@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>example form</title>
+	</head>
+	<body>
+		<form action="../formmail.php" method="post">
+			<input type="hidden" name="recipient" value="me@my.domain.com">
+
+			<input type="hidden" name="required" value="env_report,subject,message">
+			<input type="hidden" name="env_report" value="REMOTE_ADDR,HTTP_USER_AGENT">
+
+			<!-- input type="hidden" name="redirect" value="http://my.domain.com/ok.htm" -->
+			<!-- input type="hidden" name="error_redirect" value="http://my.domain.com/error.htm" -->
+			<!-- input type="hidden" name="missing_fields_redirect" value="http://my.domain.com/missing.htm" -->
+
+			<table border="0">
+				<tr>
+				<td>From</td>
+				<td><input type="text" size="50" name="email" value=""></td>
+				</tr>
+				<tr>
+				<td>Name</td>
+				<td><input type="text" size="50" name="realname" value=""></td>
+				</tr>
+				<tr>
+				<td>Subject</td>
+				<td><input type="text" size="50" name="subject" value=""></td>
+				</tr>
+				<tr>
+				<td>Message</td>
+				<td><textarea cols="50" rows="15" name="message"></textarea></td>
+				</tr>
+				<tr>
+				<td colspan="2" align="center"><input type="submit" value="submit"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

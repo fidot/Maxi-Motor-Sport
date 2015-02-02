@@ -1,0 +1,146 @@
+Instructions on how to use this PHP script
+--------------------------------------------------------------------------------
+
+This script requires no modification and can be dropped in to any html form
+action.  Please note that you must have at least version 4.x of PHP for this
+PHP script to function properly.
+
+Included in this directory is a working example of how to use and apply this
+PHP script.
+
+
+Recognized form fields
+--------------------------------------------------------------------------------
+
+* recipient
+
+This field is used to specify the recipient of the form results.  This must be a
+properly formatted email address and will only be accepted if the email address
+is either on the same domain as the form, or is in the list of allowable email
+addresses as set within the script itself (the $auth = "..." line).  By default,
+only addresses on the current server and localhost are accepted.
+
+This means that if you have to type http://my.domain.com/form.htm to access the
+form, the email must be *@domain.com, *@127.0.0.1, or *@localhost for the
+address to be accepted.
+
+You can also specify more than one recipient for email.  To do this, simply
+separate each email address with a comma, and each recipient will receive an
+individual email (no cc's or bcc's used).
+
+
+* email
+
+This field is used to specify the return address of the user who filled out the
+form.  This must also be a properly formatted email address, must not match any
+masks in the banned email addresses list, and there must be a mail exchange
+server entered in the info for their domain.
+
+
+* subject
+
+This field is used to specify the subject of the message and is optional.
+
+
+* realname
+
+This field is used to specify the users real name and/or title and is optional.
+
+
+* required
+
+This field is used to specify which fields in the form must be filled out before
+the form can be submitted.  The value is a comma separated list of field names
+(from this list) that can not be empty.  Empty values are considered to be NULL
+(nothing), "" (an empty string), and a 0 (zero).  This field always contains the
+items "recipient,email" regardless of any settings in the form.
+
+
+* sort
+
+This field is used to allow for a custom sort order of the form fields.  The
+syntax is each field name separated by commas.  If you omit a field name in the
+list, but it's a valid form field, the field will NOT be shown in the email.
+
+
+* env_report
+
+This field is used to specify that you wish to receive additional environment
+settings to be included in the form results.  Valid values are REMOTE_USER,
+REMOTE_ADDR, and HTTP_USER_AGENT.  These values should be separated by commas
+and are not required.
+
+REMOTE_USER: If the user is in an authenticated zone of your site, this would
+             be the username they are logged in with.
+
+REMOTE_ADDR: This is the IP address of the users computer.
+
+HTTP_USER_AGENT: This is the user agent field as set by the users browser, which
+                 typically has the browser type in it.
+
+
+* redirect
+
+This field is used to specify what URL you wish to be displayed to the user upon
+a successful form submition.  This can be a relative or absolute path (although
+only absolute URLs are allowed in the RFC) and is not required (there is a
+default Thank You page built in).
+
+
+* error_redirect
+
+This field is used to specify what URL you wish to be displayed to the user upon
+encountering an error.  This does not include missing fields, but rather just
+errors with field data and errors pertaining to submitting the form.  This can
+be a relative or absolute path (although only absolute URLs are allowed in the
+RFC) and is not required (there is a default Error page built in).
+
+
+* missing_fields_redirect
+
+This field is used to specify what URL you wish to be displayed to the user upon
+encountering a missing field.  This does not include other errors, just fields
+that are considered empty (see above).  This can be a relative or absolute path
+(although only absolute URLs are allowed in the RFC) and is not required (there
+is a default Missing Fields page built in).
+
+
+Additional script settings
+--------------------------------------------------------------------------------
+
+If you are not satisfied with the default behaviour of the script and how it
+operates, there are some settings within the script itself which allow you to
+fine tune how some of it works.
+
+All of these additional settings are contained inside the formmail.ph script
+itself and are contained within the "USER CONFIGURABLE SETTINGS" section.
+
+Aside from being able to specify wildcards in the $auth variable to allow for
+pattern matching on authorized email addresses (see pattern matching below for
+more information on this subject), you can also specify 'always on' values for
+both the required and env_report fields.
+
+You may also specify values for all of the 3 redirection settings so that people
+can't post fake URL values to the script, as well as allowing you to hide the
+URLs you wish to redirect users to from being inside the form itself.  Please
+note that if these settings are enabled, they will always take effect, regardless
+of any setting posted to the script via a form.
+
+One of the neatest features however, is the ability to specify patterns to match
+email addresses against when testing for valid email recipients.  Pattern
+characters of '*', '?', and '+' are accepted and refer to any or no charcaters,
+one or no character, and one or more characters respectively.
+
+You can also specify ban patterns that will deny any user trying to input a
+matching email address in as their return address.  The patterns adhere to the
+same rules that the authentication patterns do, and by default any email from
+nobody@*, anonymous@*, and postmaster@* are automatically rejected.  The
+variable to edit to add/remove from this list is the $deny variable.
+
+
+Contacts
+--------------------------------------------------------------------------------
+
+If you have any questions regarding this PHP script, please contact:
+
+Eli Sand <nutbar@innocent.com>
