@@ -1,0 +1,2 @@
+<!-- Make sure that you retain the paragraph tags <p> and </p> around each paragraph -->
+<p>This is the About Us page</p>

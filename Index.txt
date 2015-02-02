@@ -1,0 +1,20 @@
+<!-- Make sure that you retain the paragraph tags <p> and </p> around each paragraph -->
+<p></p>
+<!-- Latest Product Section. You can change the text between the <th> and </th>. Each item needs to be contained in a table cell tag <td> to </td> -->
+<table id="latest-products">
+  <tr>
+    <th>Our Latest Products</th>
+  </tr>
+  <tr>
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 206/206 Maxi Bodykit"><img src="/products/Peugeot/Peugeot 206/206 Maxi Bodykit/206-Maxi.jpg" alt=""><br>Peugeot 206 Maxi Bodykit</a></td>
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 206/206 WRC Bodykit"><img src="/products/Peugeot/Peugeot 206/206 WRC Bodykit/206 WRC.jpg" alt=""><br>Peugeot 206 WRC Bodykit</a></td>
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 207"><img src="/products/Peugeot/Peugeot 207/207 Maxi rear.jpg" alt=""><br>Peugeot 207</a></td>
+    <td><a href="/products.php?directory=products/Peugeot/Peugeot 306/306 Maxi Bodykit Phase 1"><img src="/products/Peugeot/Peugeot 306/306 Maxi Bodykit Phase 1/306 Maxi-ph1.jpg" alt=""><br>Peugeot 306 Maxi Bodykit Phase 1</a></td>
+  </tr>
+  <tr>
+    <td><a href="products.php?directory=products/Citroen/Citroen AX/AX Wing Mirrors"><img src="/products/Citroen/Citroen AX/AX Wing Mirrors/AX wing mirror.jpg" alt=""><br>Citroen AX Wing Mirrors</a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>

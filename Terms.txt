@@ -1,0 +1,7 @@
+<!-- Make sure that you retain the paragraph tags <p> and </p> around each paragraph -->
+<p>All our composite parts are supplied unfinished and will require final trimming and prep work prior to fitting and painting.</p>
+<p> Please note, these are aftermarket items designed for competition use, not OEM parts.</p> 
+<p>Fitting by an experienced bodyshop recommended.</p>
+<p>We have some items in stock, however the majority of parts will be made to order. Please allow up to four weeks for manufacture and delivery.</p>
+<p>As a valued customer we will keep you informed regarding your order status.</p>
+
